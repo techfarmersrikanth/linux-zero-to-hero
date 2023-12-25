@@ -1,8 +1,8 @@
 # listing the files and directories 
-  ls 
-  ls -lrt
-  ll
-  ls -a
+  - ls 
+  - ls -lrt
+  - ll
+  - ls -a
 
 # Check time and date
   date

@@ -1,10 +1,10 @@
 # How do you view Linux file permissions?
-The ls command along with its -l (for long listing) option will show you metadata about your Linux files, including the permissions set on the file.
+- The ls command along with its -l (for long listing) option will show you metadata about your Linux files, including the permissions set on the file.
 
 # ls -l
 
-drwxr-xr-x. 4 root root    68 Jun 13 20:25 tuned
--rw-r--r--. 1 root root  4017 Feb 24  2022 vimrc
+- drwxr-xr-x. 4 root root    68 Jun 13 20:25 tuned
+- -rw-r--r--. 1 root root  4017 Feb 24  2022 vimrc
 In this example, you see two different listings. The first field of the ls -l output is a group of metadata that includes the permissions on each file. Here are the components of the vimrc listing:
 
 File type: -
@@ -16,16 +16,16 @@ Group owner: root
 # What are octal values?
 When Linux file permissions are represented by numbers, it's called numeric mode. In numeric mode, a three-digit value represents specific file permissions (for example, 744.) These are called octal values. The first digit is for owner permissions, the second digit is for group permissions, and the third is for other users. Each permission has a numeric value assigned to it:
 
-r (read): 4
-w (write): 2
-x (execute): 1
+- r (read): 4
+- w (write): 2
+- x (execute): 1
 In the permission value 744, the first digit corresponds to the user, the second digit to the group, and the third digit to others. By adding up the value of each user classification, you can find the file permissions.
 
 For example, a file might have read, write, and execute permissions for its owner, and only read permission for all other users. That looks like this:
 
-Owner: rwx = 4+2+1 = 7
-Group: r-- = 4+0+0 = 4
-Others: r-- = 4+0+0 = 4
+- Owner: rwx = 4+2+1 = 7
+- Group: r-- = 4+0+0 = 4
+- Others: r-- = 4+0+0 = 4
 The results produce the three-digit value 744.
 
 # What do Linux file permissions actually do?
