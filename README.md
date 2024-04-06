@@ -717,7 +717,7 @@ sudo modprobe kvm
 
 #### let's see the 2 types of hypervisors. First type 2, since it's easier to understand.
 5555
-![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/555555555555555.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/5555555555555555555.png)
 
 **Type 2 Hypervisor**
 
