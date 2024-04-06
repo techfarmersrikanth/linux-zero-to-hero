@@ -784,7 +784,7 @@ PaaS provides a computing platform where the underlying infrastructure (such as 
 
 SaaS providers are cloud-based applications that users access on demand from the internet without needing to install or maintain the software. Examples include GitHub, Google Docs, Slack, and Adobe Creative Cloud. SaaS applications are popular among businesses and general users given that they’re often easy to adopt, accessible from any device, and have free, premium, and enterprise versions of their applications. Like PaaS, SaaS abstracts away the underlying infrastructure of the software application so that users are only exposed to the interface they interact with.
 
-![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/77777777777777.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/7777777777777777777.png)
 
 ## Cloud Environments
 
