@@ -1,19 +1,5 @@
 # linux-zero-to-hero
-# linux-Tutorial (with some SRE's info)
-
 linux commands and any thing basic you need yo know for using linux (for cloud computing) it is for my own Knowledge but if you want to use I try to make it very complex and from base so you can learn linux so easy and work on linux based systems.
-
-## Commands in first place
-
-[Commands](https://github.com/SamanKhalife/linux-commands/blob/main/Commands.md)
-
-[Commands](https://github.com/SamanKhalife/linux-commands/blob/main/Commands.md)
-
-[Commands](https://github.com/SamanKhalife/linux-commands/blob/main/Commands.md)
-
-[Commands](https://github.com/SamanKhalife/linux-commands/blob/main/Commands.md)
-
-[Commands](https://github.com/SamanKhalife/linux-commands/blob/main/Commands.md)
 
 ## Common commands preview
 
@@ -35,11 +21,11 @@ linux commands and any thing basic you need yo know for using linux (for cloud c
 * **Application software**
 * **Application software with graphical interface**
 
-![img](https://github.com/SamanKhalife/linux-commands/blob/main/IMAGES/1111111111111111111.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/1111111111111111111.png)
 
 * **Application software with graphical interface**
 
-![img](https://github.com/SamanKhalife/linux-commands/blob/main/IMAGES/2222222222222222222.png)
+![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/2222222222222222222.png)
 
 ## More info about Linux kernel 
 
@@ -49,7 +35,7 @@ linux commands and any thing basic you need yo know for using linux (for cloud c
 
 * There are 6 stages of the Linux boot process
 
-![img](https://github.com/SamanKhalife/linux-commands/blob/main/IMAGES/3333333333333333333.png)
+![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/3333333333333333333.png)
 
 ### Stage 1: BIOS (Basic Input/Output System)
 
@@ -160,13 +146,13 @@ linux commands and any thing basic you need yo know for using linux (for cloud c
 fdisk
 
 ```
-root@saman:~# fdisk /dev/sda
+root@sri:~# fdisk /dev/sda
 Welcome to fdisk (util-linux 2.25.1).
 Changes will remain in memory only, until you decide to write them.
 Be careful before using the write command.
 
 
-root@saman:~# Command (m for help): p
+root@sri:~# Command (m for help): p
 Disk /dev/sda: 298.1 GiB, 320072933376 bytes, 625142448 sectors
 Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
@@ -185,7 +171,7 @@ Device     Boot     Start       End   Sectors   Size Id Type
 parted
 
 ```
-root@saman:~# sudo parted /dev/sda p
+root@sri:~# sudo parted /dev/sda p
 Model: ATA ST320LT000-9VL14 (scsi)
 Disk /dev/sda: 320GB
 Sector size (logical/physical): 512B/512B
@@ -341,14 +327,13 @@ The `chown` command changes the owner and group of a file or directory. This com
 Only the file owner and superuser can use this command.
 
 ## Group Permissions and attributes
+Group permssions and users are 
+For example, a file might have read, write, and execute permissions for its owner, and only read permission for all other users. That looks like this:
 
-[gorupmod](<README (1).md>)
-
-[groupadd](<TXT FILES/groupadd.md>)
-
-[groupdel](<TXT FILES/groupdel.md>)
-
-[groups](<TXT FILES/groups.md>)
+- Owner: rwx = 4+2+1 = 7
+- Group: r-- = 4+0+0 = 4
+- Others: r-- = 4+0+0 = 4
+The results produce the three-digit value 744.
 
 ## apt command in linux (for installing packages)
 
@@ -417,15 +402,11 @@ Wildcard characters are used in globbing and regular expressions to represent pa
 
 These wildcard characters provide flexible ways to match patterns in text and are commonly used in various programming languages, command-line utilities, and regular expressions for tasks such as text searching, text processing, and file manipulation. Keep in mind that the availability and behavior of these characters can vary depending on the specific environment or tool you're using.
 
-[more info wildcard characters for globbing](<How to/wildcard characters for globbing .md>)
-
 ## 2 Ways to Download Files From Linux Terminal
 
 how do you download a file from the terminal?
 
 1.Download files from Linux terminal using wget command
-
-[wget command](<TXT FILES/wget.md>)
 
 Installing wget:
 
@@ -440,8 +421,6 @@ wget URL
 ```
 
 2.Download files from Linux command line using curl
-
-[curl command](<TXT FILES/curl.md>)
 
 Installing curl:
 
@@ -480,26 +459,6 @@ The following commands will get you the private IP address of your interfaces:
 * `nmcli -p device show`(best option in my opinion)
 
 ## Linux Networking Tools
-
-[ping](<TXT FILES/ping.md>)
-
-[host](<TXT FILES/host.md>)
-
-[finger](<TXT FILES/finger.md>)
-
-[traceroute](<TXT FILES/traceroute.md>)
-
-[netstat](<TXT FILES/netstat.md>)
-
-[tracepath](<TXT FILES/tracepath.md>)
-
-[dig](<TXT FILES/dig.md>)
-
-[hostname](<TXT FILES/hostname.md>)
-
-[route](<TXT FILES/route.md>)
-
-[nslookup](<TXT FILES/nslookup.md>)
 
 ## SSH
 
@@ -668,7 +627,7 @@ iptables   -t       nat        -I        FORWARDING          .     -P     tcp   
 
 ### chains that packets will go through in iptable
 
-![img](https://github.com/SamanKhalife/linux-Tutorial/blob/main/IMAGES/4444444444444444444.png)
+![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/4444444444444444444.png)
 
 ### If you live in countries that are embargoed by some companies and applications, you can use some thing like DNS changing for using the apps.
 
@@ -859,8 +818,8 @@ sudo modprobe kvm
 (If you see hypervisor in your /proc/cpuinfo it means that you are inside a virtualized Linux machine )
 
 #### let's see the 2 types of hypervisors. First type 2, since it's easier to understand.
-
-![img](https://github.com/SamanKhalife/linux-Tutorial/blob/main/IMAGES/5555555555555555555.png)
+5555
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/555555555555555.png)
 
 **Type 2 Hypervisor**
 
@@ -927,7 +886,7 @@ PaaS provides a computing platform where the underlying infrastructure (such as 
 
 SaaS providers are cloud-based applications that users access on demand from the internet without needing to install or maintain the software. Examples include GitHub, Google Docs, Slack, and Adobe Creative Cloud. SaaS applications are popular among businesses and general users given that they’re often easy to adopt, accessible from any device, and have free, premium, and enterprise versions of their applications. Like PaaS, SaaS abstracts away the underlying infrastructure of the software application so that users are only exposed to the interface they interact with.
 
-![img](https://github.com/SamanKhalife/linux-Tutorial/blob/main/IMAGES/7777777777777777777.png)
+![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/77777777777777.png)
 
 ## Cloud Environments
 
@@ -957,7 +916,7 @@ Multi-cloud (also referred to as multi cloud or multicloud) is a concept that re
 
 ## SLA(Service Level agreement) / SLI(Service Level Indicators) / SLO(Service Level Objectives)
 
-![img](https://github.com/SamanKhalife/linux-Tutorial/blob/main/IMAGES/6666666666666666666.png)
+![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/6666666666666666666.png)
 
 If the running time and availability of a system cannot be measured, it is very difficult to maintain and operate the system that is already online, which often causes the maintenance and operation team to continue to be in the state of a fire brigade, and when the root cause of the problem is finally found, it may be the development There is a problem with the code written by the team.
 
