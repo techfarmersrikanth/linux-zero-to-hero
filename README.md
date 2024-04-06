@@ -21,11 +21,11 @@ linux commands and any thing basic you need yo know for using linux (for cloud c
 * **Application software**
 * **Application software with graphical interface**
 
-![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/1111111111111111111.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/1111111111111111111.png)
 
 * **Application software with graphical interface**
 
-![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/2222222222222222222.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/2222222222222222222.png)
 
 ## More info about Linux kernel 
 
@@ -35,7 +35,7 @@ linux commands and any thing basic you need yo know for using linux (for cloud c
 
 * There are 6 stages of the Linux boot process
 
-![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/3333333333333333333.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/3333333333333333333.png)
 
 ### Stage 1: BIOS (Basic Input/Output System)
 
@@ -625,108 +625,6 @@ iptables   -t       nat        -I        FORWARDING          .     -P     tcp   
                                                       (line you want) 
 ```
 
-### chains that packets will go through in iptable
-
-![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/4444444444444444444.png)
-
-### If you live in countries that are embargoed by some companies and applications, you can use some thing like DNS changing for using the apps.
-
-* [shecan](https://shecan.ir/)
-* [hostiran](https://hostiran.net/landing/proxy)
-* [electrotm](https://electrotm.org/)
-* [begzar](https://begzar.ir/)
-* [vanillapp](https://vanillapp.ir/)
-* [403.online](https://403.online/)
-
-### If you dont know how to change and set it follow these steps
-
-* connect to your srver with ssh.
-* open `/etc/resolv.conf` with some editor like nano or vim.
-*   change the in front of namesrver like this:
-
-    ```
-    nameserver 172.29.2.100
-    nameserver 185.51.200.2
-    ```
-* save changes and exit.
-
-## How to Check Ubuntu Version Details and Other System Information
-
-type the following command:
-
-```
-lsb_release -a
-```
-
-Alternate way:
-
-```
-cat /etc/lsb-release
-```
-
-Another Fun way:
-
-[Neofetch command](Widgets/Fun/Neofetch.md)
-
-## Getting SSL Certificat
-
-you can use any kind tools you know here are some of them:
-
-* [acme](https://github.com/acmesh-official/acme.sh)
-* [zerossl](https://github.com/zerossl)
-* [free-ssl](https://github.com/topics/free-ssl-certificates)
-* [certbot](https://github.com/certbot/certbot)
-
-[learn getting free ssl with acme step by step](acme-freessl.md)
-
-## Some of the server monitoring tools
-
-#### How To View Running Processes in Linux
-
-* [top](<TXT FILES/top.md>)
-* [htop](<TXT FILES/htop.md>)
-* [ps](<TXT FILES/ps.md>)
-* [lsof](<TXT FILES/lsof.md>)
-
-#### How To Monitor Your Network
-
-* [nethogs](<README (1).md>)
-* [iptraf-ng](<README (1).md>)
-* [netstat](<TXT FILES/netstat.md>)
-* [iftop](<TXT FILES/iftop.md>)
-* [(speed test)](<README (1).md>)
-
-#### How To Monitor Your Disk Usage
-
-* [df](<TXT FILES/df.md>)
-* [du](<TXT FILES/du.md>)
-* [iotop](<TXT FILES/iotop.md>)
-* [iostat](<TXT FILES/iostat.md>)
-
-#### How To Monitor Your Memory Usage
-
-* [free(Ram usage)](<TXT FILES/free.md>)
-* [vmstat](<TXT FILES/vmstat.md>)
-
-## How to to Manage Processes in Linux
-
-* [kill](<TXT FILES/kill.md>)
-* [nice](<TXT FILES/nice.md>)
-
-mosltly use for controlling the cpu usage (nice number is from -20 to 19 ).
-
-## Some of the monitoring apps
-
-* [prometheus](https://prometheus.io/)
-  * [my docs](<README (1).md>)
-* [grafana](https://grafana.com/)
-  * [my docs](<README (1).md>)
-* [zabbix](https://www.zabbix.com/)
-* [paessler](https://www.paessler.com/)
-* [nagios](https://www.nagios.org/)
-* [elastic.co](https://www.elastic.co/kibana)
-* [elastic](https://www.elastic.co/)
-* [influxdata](https://www.influxdata.com/)
 
 ## How To Add Swap Space
 
@@ -819,7 +717,7 @@ sudo modprobe kvm
 
 #### let's see the 2 types of hypervisors. First type 2, since it's easier to understand.
 5555
-![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/555555555555555.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/555555555555555.png)
 
 **Type 2 Hypervisor**
 
@@ -886,7 +784,7 @@ PaaS provides a computing platform where the underlying infrastructure (such as 
 
 SaaS providers are cloud-based applications that users access on demand from the internet without needing to install or maintain the software. Examples include GitHub, Google Docs, Slack, and Adobe Creative Cloud. SaaS applications are popular among businesses and general users given that they’re often easy to adopt, accessible from any device, and have free, premium, and enterprise versions of their applications. Like PaaS, SaaS abstracts away the underlying infrastructure of the software application so that users are only exposed to the interface they interact with.
 
-![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/77777777777777.png)
+![img](https://github.com/techfarmersrikanth/linux-zero-to-hero/blob/main/IMAGES/77777777777777.png)
 
 ## Cloud Environments
 
@@ -913,40 +811,6 @@ Micro clouds are a new class of infrastructure for on-demand computing at the ed
 #### Multi-cloud
 
 Multi-cloud (also referred to as multi cloud or multicloud) is a concept that refers to using multiple clouds from more than one cloud service provider at the same time. The term is also used to refer to the simultaneous running of bare metal, virtualised and containerised workloads.
-
-## SLA(Service Level agreement) / SLI(Service Level Indicators) / SLO(Service Level Objectives)
-
-![img](ttps://github.com/techfarmersrikanth/linux-zero-to-hero/tree/main/IMAGES/6666666666666666666.png)
-
-If the running time and availability of a system cannot be measured, it is very difficult to maintain and operate the system that is already online, which often causes the maintenance and operation team to continue to be in the state of a fire brigade, and when the root cause of the problem is finally found, it may be the development There is a problem with the code written by the team.
-
-Development teams often don't see "stability" as a potential problem if they can't figure out how to measure runtime and availability. This problem has plagued Google for many years, which is why the SRE principle was developed. One of the motivations.
-
-SRE ensures that everyone knows how to measure reliability and what to do when a service fails. This will be detailed to the point that when a problem occurs, from VP or CxO to every relevant employee within the organization, they all have to do what they should do. What each "person" should do is clearly regulated. SRE will communicate with all relevant personnel to determine Service Level Indicators (SLIs) and Service Level Objectives (SLOs).
-
-SLIs define metrics related to the "response time" of a system, such as response time, throughput per second, requests, etc., and often convert this metric into a ratio or average.
-
-SLOs are a time interval obtained after discussions with relevant personnel. It is expected that SLIs can maintain a certain level of figures, such as "what is the level of SLIs every month", which is more internal indicators.
-
-The video also discusses Service Level Agreements (SLAs), even though it's not a number that SREs care about on a daily basis. As an online service provider, SLA is a commitment to customers to ensure that the percentage of continuous operation of the service is usually "negotiated" with customers, and the downtime per year (or month) should not be less than a few minutes.
-
-The concepts of SLI, SLO, and SLA are very similar to the "everything can be measured" mentioned by DevOps, which is one of the reasons why it is said that class SRE implements DevOps.
-
-#### Uptime
-
-| Availability % | Downtime per year | Downtime per month | Downtime per Week |
-| -------------- | ----------------- | ------------------ | ----------------- |
-| 90%            | 36.5 days         | 72 hours           | 16.8 hours        |
-| 95%            | 18.25 days        | 36 hours           | 8.4 hours         |
-| 98%            | 7.30 days         | 14.4 hours         | 3.36 hours        |
-| 99%            | 3.65 days         | 7.20 hours         | 1.68 hours        |
-| 99.5%          | 1.83 days         | 3.60 hours         | 50.4 minutes      |
-| 99.8%          | 17.52 hours       | 86.23 minutes      | 20.16 minutes     |
-| 99.9%          | 8.76 hours        | 43.2 minutes       | 10.1 minutes      |
-| 99.95%         | 4.38 hours        | 21.56 minutes      | 5.04 minutes      |
-| 99.99%         | 52.6 minutes      | 4.32 minutes       | 1.01 minutes      |
-| 99.999%        | 5.26 minutes      | 25.9 seconds       | 6.05 seconds      |
-| 99.9999%       | 31.5 seconds      | 2.59 seconds       | 0.605 seconds     |
 
 ## Mean Time To Recover (MTTR)
 
