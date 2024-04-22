@@ -1,4 +1,4 @@
-# listing the files and directories 
+# listing the files and directoriey
   - ls 
   - ls -lrt
   - ll
